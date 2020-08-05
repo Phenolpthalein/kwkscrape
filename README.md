@@ -8,3 +8,6 @@ How to use: (if you're comfortable with using argparse, just use the --help comm
 5. "--username" defines the associated @ name with the account you wish to scrape, not the display name
 6. "--count" defines the amount of tweets you wish to scrape from the account
 7. "--filename" defines the name of the output file that will contain the tweets; the filetype must be included and csv or txt files work the best.
+
+scrapecmd3 uses a newer method from python 3.x.x for finding the C:\Users\x\Desktop directory
+scrapecmd-txt only outputs text files, but can encode accented characters the csv module could not, and also defaults to delimiting the files with double line breaks.
