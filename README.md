@@ -1,5 +1,5 @@
 # kwkscrape
-Simple twitter scraping tool using GetOldTweets3 through Windows command line (can only be used on windows)
+Simple twitter scraping tool using GetOldTweets3 through Windows command line (can only be used on windows)\
 How to use: (if you're comfortable with using argparse, just use the --help command with the scrapecmd file)
 1. go to command line, or "cmd" in the windows search bar
 2. change directory with "cd" command, to whichever folder the scrapecmd file is located in
@@ -9,5 +9,5 @@ How to use: (if you're comfortable with using argparse, just use the --help comm
 6. "--count" defines the amount of tweets you wish to scrape from the account
 7. "--filename" defines the name of the output file that will contain the tweets; the filetype must be included and csv or txt files work the best.
 
-scrapecmd3 uses a newer method from python 3.x.x for finding the C:\Users\x\Desktop directory
+scrapecmd3 uses a newer method from python 3.x.x for finding the C:\Users\x\Desktop directory.\
 scrapecmd-txt only outputs text files, but can encode accented characters the csv module could not, and also defaults to delimiting the files with double line breaks.
